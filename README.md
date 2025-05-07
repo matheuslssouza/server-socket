@@ -30,7 +30,7 @@ Este projeto implementa um **servidor TCP simples em C++ utilizando a API do Win
 cl main.cpp WinsockServer.cpp /link Ws2_32.lib
 ```
 
-🚀 Como Executar
+### 🚀 Como Executar
 Após compilar:
 
 ```bash
@@ -38,7 +38,9 @@ main.exe
 ```
 O servidor escutará na porta 4000 no endereço 127.0.0.1.
 
-🧠 Explicação do Código
+---------
+
+### 🧠 Explicação do Código
 main.cpp
 ```cpp
 WinsockServer WinsockServer(L"127.0.0.1", 4000);
@@ -47,7 +49,9 @@ Cria um objeto da classe WinsockServer passando o IP e a porta.
 
 Isso automaticamente inicia o servidor via o construtor da classe.
 
-WinsockServer.cpp — Implementação do Servidor
+---------
+
+### WinsockServer.cpp — Implementação do Servidor
 🔧 Construtor
 
 ```cpp
