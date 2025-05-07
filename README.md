@@ -7,13 +7,12 @@ Este projeto implementa um **servidor TCP simples em C++ utilizando a API do Win
 ## 📁 Estrutura do Projeto
 
 /project-root
-├── main.cpp
-├── WinsockServer.h
-└── WinsockServer.cpp
 
-yaml
-Copiar
-Editar
+├── main.cpp
+
+├── WinsockServer.
+
+└── WinsockServer.cpp
 
 ---
 
